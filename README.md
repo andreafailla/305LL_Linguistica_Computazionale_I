@@ -21,14 +21,14 @@ Sostantivi, Verbi, Avverbi, Aggettivi e il numero totale di parole nel testo (ad
 <br><br>
 Programma 2 - Per ognuno dei due corpora estraete le seguenti informazioni:
 - estraete ed ordinate in ordine di frequenza decrescente, indicando anche la relativa frequenza:
--- le 10 PoS (Part-of-Speech) più frequenti;
--- i 20 sostantivi e i 20 verbi più frequenti;
--- i 20 bigrammi composti da un Sostantivo seguito da un Verbo più frequenti;
--- i 20 bigrammi composti da un Aggettivo seguito da un Sostantivo più frequenti;
+    - le 10 PoS (Part-of-Speech) più frequenti;
+    - i 20 sostantivi e i 20 verbi più frequenti;
+    - i 20 bigrammi composti da un Sostantivo seguito da un Verbo più frequenti;
+    - i 20 bigrammi composti da un Aggettivo seguito da un Sostantivo più frequenti;
 - estraete ed ordinate i 20 bigrammi di token (dove ogni token deve avere una frequenza maggiore di 3):
--- con probabilità congiunta massima, indicando anche la relativa probabilità;
--- con probabilità condizionata massima, indicando anche la relativa probabilità;
--- con forza associativa (calcolata in termini di Local Mutual Information) massima, indicando anche la relativa forza associativa;
+    - con probabilità congiunta massima, indicando anche la relativa probabilità;
+    - con probabilità condizionata massima, indicando anche la relativa probabilità;
+    - con forza associativa (calcolata in termini di Local Mutual Information) massima, indicando anche la relativa forza associativa;
 - per ogni lunghezza di frase da 8 a 15 token, estraete la frase con probabilità più alta, dove la probabilità deve essere calcolata attraverso un modello di Markov di ordine 1 usando lo Add-one Smoothing. Il modello deve usare le statistiche estratte dal corpus che contiene le frasi;
 - dopo aver individuato e classificato le Entità Nominate (NE) presenti nel testo, estraete: 
 - i 15 nomi propri di persona più frequenti (tipi), ordinati per frequenza;
